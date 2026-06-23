@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="RadioFloris — FiveM cheat content, chaos en collabs. Bekijk de nieuwste video's en join de community."
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>RadioFloris — FiveM Content</title>
+    <link rel="icon" type="image/png" href="assets/floris.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="glow glow-1" aria-hidden="true"></div>
+    <div class="glow glow-2" aria-hidden="true"></div>
+
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="logo">
+          <img src="assets/floris.png" alt="RadioFloris avatar" class="logo-avatar" />
+          <span class="logo-text">Radio<span class="accent">Floris</span></span>
+        </a>
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#videos">Video's</a></li>
+          <li><a href="#about">Over mij</a></li>
+          <li><a href="#collabs">Samenwerkingen</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="showcase">
+        <div class="showcase-bg" aria-hidden="true"></div>
+        <div class="showcase-overlay" aria-hidden="true"></div>
+
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-badge">FiveM Content Creator</div>
+          <h1 class="hero-title">
+            <span id="hero-name">RadioFloris</span>
+          </h1>
+          <p class="hero-tagline" id="hero-tagline">FiveM Chaos & Cheat Content</p>
+          <p class="hero-desc" id="hero-desc"></p>
+          <div class="hero-actions">
+            <a href="#videos" class="btn btn-primary">Bekijk video's</a>
+            <a href="#" class="btn btn-discord" id="hero-discord" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
+                />
+              </svg>
+              Join Discord
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-value">FiveM</span>
+              <span class="stat-label">Chaos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-value">Cheat</span>
+              <span class="stat-label">Content</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-value">NL</span>
+              <span class="stat-label">Creator</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <div id="features-grid" class="features-grid"></div>
+        </div>
+      </section>
+      </div>
+
+      <section id="videos" class="section videos-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">// Nieuwste uploads</span>
+            <h2 class="section-title">Recente Video's</h2>
+          </div>
+          <div id="video-grid" class="video-grid"></div>
+          <div id="video-empty" class="empty-state hidden">
+            <p>Nog geen video's ingesteld.</p>
+            <p class="empty-hint">
+              Voeg YouTube video ID's toe in <code>config.js</code>
+            </p>
+          </div>
+          <div class="section-cta">
+            <a href="#" id="youtube-channel" class="btn btn-outline" target="_blank" rel="noopener">
+              Bekijk YouTube kanaal →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="collabs" class="section collabs-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">// Partners</span>
+            <h2 class="section-title">Samenwerkingen</h2>
+            <p class="section-subtitle">
+              Interesse in een collab? Neem contact op via
+              <a href="#" id="collab-email" class="link-accent">business@radiofloris.nl</a>
+            </p>
+          </div>
+          <div id="collab-grid" class="collab-grid"></div>
+        </div>
+      </section>
+
+      <section id="community" class="section community-section">
+        <div class="container">
+          <div class="community-card">
+            <div class="community-content">
+              <span class="section-label">// Volg me overal</span>
+              <h2 class="section-title">Join de Community</h2>
+              <p id="community-desc">
+                Discord, TikTok, Instagram en meer — blijf op de hoogte van nieuwe
+                uploads en live chaos op FiveM servers.
+              </p>
+              <a href="#" class="btn btn-discord community-cta" id="community-discord" target="_blank" rel="noopener">
+                Join de Discord server
+              </a>
+            </div>
+            <div id="social-grid" class="social-grid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container">
+          <div class="cta-banner">
+            <div class="cta-content">
+              <span class="section-label">// Nieuwe uploads</span>
+              <h2 class="section-title">Mis geen chaos meer</h2>
+              <p id="cta-text">Abonneer op YouTube en join Discord voor de nieuwste FiveM content.</p>
+            </div>
+            <div class="cta-actions">
+              <a href="#" class="btn btn-primary" id="cta-youtube" target="_blank" rel="noopener">YouTube kanaal</a>
+              <a href="#" class="btn btn-outline" id="cta-discord" target="_blank" rel="noopener">Discord joinen</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="footer-brand">Radio<span class="accent">Floris</span></p>
+        <p class="footer-copy">&copy; <span id="year"></span> RadioFloris. Alle rechten voorbehouden.</p>
+      </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
